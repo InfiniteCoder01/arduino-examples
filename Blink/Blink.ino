@@ -1,12 +1,12 @@
-#define ONBOARD_LED LED_BUILTIN
+// #define LED_BUILTIN 13
 
 void setup() {
-  pinMode(ONBOARD_LED,OUTPUT);
+  pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);
   delay(100);
-  digitalWrite(ONBOARD_LED, HIGH);
+  digitalWrite(LED_BUILTIN, LOW);
   delay(100);
-  digitalWrite(ONBOARD_LED, LOW);
 }
