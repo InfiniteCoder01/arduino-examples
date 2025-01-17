@@ -1,6 +1,6 @@
 #include "FastLED.h"
-#define NUM_LEDS 3
-#define PIN 28
+#define NUM_LEDS 8
+#define PIN 4
 
 CRGB leds[NUM_LEDS];
 uint8_t counter;
