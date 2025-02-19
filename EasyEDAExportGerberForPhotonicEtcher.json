@@ -1,0 +1,61 @@
+{
+	"default": {
+		"layerConfigs": [
+			{
+				"layerId": 1,
+				"isMirror": false
+			},
+			{
+				"layerId": 2,
+				"isMirror": false
+			},
+			{
+				"layerId": 3,
+				"isMirror": false
+			},
+			{
+				"layerId": 4,
+				"isMirror": false
+			},
+			{
+				"layerId": 5,
+				"isMirror": false
+			},
+			{
+				"layerId": 6,
+				"isMirror": false
+			},
+			{
+				"layerId": 7,
+				"isMirror": false
+			},
+			{
+				"layerId": 8,
+				"isMirror": false
+			},
+			{
+				"layerId": 11,
+				"isMirror": false
+			}
+		],
+		"objectConfigs": [
+			"Pad",
+			"Via",
+			"Track",
+			"Text",
+			"Image",
+			"Dimension",
+			"BoardOutline",
+			"BoardCutout",
+			"CopperFilled",
+			"SolidRegion",
+			"FPCStiffener",
+			"Line",
+			"PlaneZone",
+			"ComponentProperty",
+			"ComponentSilkscreen",
+			"TearDrop"
+		],
+		"active": true
+	}
+}

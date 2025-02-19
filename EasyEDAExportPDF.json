@@ -1,20 +1,20 @@
 {
-	"fileName": "PCB_PCB3_2025-01-16",
+	"fileName": "PCB_PCB1_2025-01-19",
 	"language": "en",
-	"pageSet": "merged",
-	"needMenu": false,
+	"pageSet": "paged",
+	"needMenu": true,
 	"needAnnot": false,
 	"onlyShowStroke": false,
 	"customPage": [
 		{
 			"checked": true,
-			"name": "Top Assembly Drawings",
+			"name": "Board",
 			"layer": [
 				{
 					"layerId": 1,
-					"isMirror": true,
+					"isMirror": false,
 					"transparency": 0,
-					"checked": true,
+					"checked": false,
 					"layerName": "Top Layer",
 					"color": "#ff0000"
 				},
@@ -22,7 +22,7 @@
 					"layerId": 2,
 					"isMirror": false,
 					"transparency": 0,
-					"checked": false,
+					"checked": true,
 					"layerName": "Bottom Layer",
 					"color": "#0000ff"
 				},
@@ -92,7 +92,7 @@
 				},
 				{
 					"layerId": 11,
-					"isMirror": true,
+					"isMirror": false,
 					"transparency": 0,
 					"checked": true,
 					"layerName": "Board Outline Layer",
@@ -102,7 +102,7 @@
 					"layerId": 12,
 					"isMirror": false,
 					"transparency": 0,
-					"checked": false,
+					"checked": true,
 					"layerName": "Multi-Layer",
 					"color": "#c0c0c0"
 				},
@@ -124,7 +124,7 @@
 				},
 				{
 					"layerId": 47,
-					"isMirror": true,
+					"isMirror": false,
 					"transparency": 0,
 					"checked": true,
 					"layerName": "Hole Layer",
@@ -240,133 +240,7 @@
 				"checked": false,
 				"color": "#FFFFFF"
 			}
-		},
-		{
-			"checked": false,
-			"name": "Bottom Assembly Drawings",
-			"layer": [
-				{
-					"layerId": 2,
-					"isMirror": true,
-					"transparency": 80,
-					"checked": true,
-					"layerName": "Bottom Layer",
-					"color": "#0000ff"
-				},
-				{
-					"layerId": 4,
-					"isMirror": true,
-					"transparency": 0,
-					"checked": true,
-					"layerName": "Bottom Silkscreen Layer",
-					"color": "#66cc33"
-				},
-				{
-					"layerId": 11,
-					"isMirror": true,
-					"transparency": 0,
-					"checked": true,
-					"layerName": "Board Outline Layer",
-					"color": "#ff00ff"
-				},
-				{
-					"layerId": 47,
-					"isMirror": true,
-					"transparency": 0,
-					"checked": true,
-					"layerName": "Hole Layer",
-					"color": "#222222"
-				}
-			],
-			"object": [
-				"TopPad",
-				"BottomPad",
-				"MultiPad",
-				"Via",
-				"PadDrill",
-				"ViaDrill",
-				"Track",
-				"Text",
-				"Image",
-				"Dimension",
-				"BoardOutline",
-				"BoardCutout",
-				"CopperOutline",
-				"CopperFilled",
-				"TearDrop",
-				"SolidRegion",
-				"ProhibitedRegion",
-				"FPCStiffener",
-				"Line",
-				"PlaneZone",
-				"ComponentProperty",
-				"ComponentSilkscreen",
-				"Shell_Outline",
-				"Shell_ScrewPillar",
-				"Shell_SideDatumLine",
-				"Shell_SideSlotRegion",
-				"Shell_TopBottomSlotRegion",
-				"Shell_SideEntity",
-				"Shell_TopBottomEntity"
-			],
-			"pageNo": 2,
-			"colorType": "Black on White",
-			"background": {
-				"checked": true,
-				"color": "#FFFFFF"
-			}
-		},
-		{
-			"checked": false,
-			"name": "Drill Drawing",
-			"layer": [
-				{
-					"layerId": 56,
-					"isMirror": false,
-					"transparency": 0,
-					"checked": true,
-					"layerName": "Drill Drawing Layer",
-					"color": "#008080"
-				}
-			],
-			"object": [
-				"TopPad",
-				"BottomPad",
-				"MultiPad",
-				"Via",
-				"PadDrill",
-				"ViaDrill",
-				"Track",
-				"Text",
-				"Image",
-				"Dimension",
-				"BoardOutline",
-				"BoardCutout",
-				"CopperOutline",
-				"CopperFilled",
-				"TearDrop",
-				"SolidRegion",
-				"ProhibitedRegion",
-				"FPCStiffener",
-				"Line",
-				"PlaneZone",
-				"ComponentProperty",
-				"ComponentSilkscreen",
-				"Shell_Outline",
-				"Shell_ScrewPillar",
-				"Shell_SideDatumLine",
-				"Shell_SideSlotRegion",
-				"Shell_TopBottomSlotRegion",
-				"Shell_SideEntity",
-				"Shell_TopBottomEntity"
-			],
-			"pageNo": 3,
-			"colorType": "Black on White",
-			"background": {
-				"checked": true,
-				"color": "#FFFFFF"
-			}
 		}
 	],
-	"rangeText": "PCB3"
+	"rangeText": "PCB1"
 }
